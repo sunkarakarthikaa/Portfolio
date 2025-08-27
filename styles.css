@@ -24,8 +24,8 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-  letter-spacing: 0.3px;
+  font-family: "Merriweather", Georgia, "Times New Roman", serif;
+  letter-spacing: 0.2px;
   margin: 0 0 0.4rem 0;
 }
 
@@ -174,11 +174,14 @@ p { margin: 0 0 1rem 0; color: var(--muted); }
 
 /* Footer */
 .site-footer {
-  padding: 12px 0;
+  padding: 0;
   border-top: 1px solid var(--border);
   background: var(--surface-alt);
+  display: flex;
+  flex-direction: column;
 }
-.footer-content { display: flex; align-items: center; justify-content: center; }
+.footer-content { display: flex; align-items: center; justify-content: center; padding: 12px 0; }
+.footer-bar { height: 3px; width: 100%; background: var(--primary); }
 
 /* Responsive */
 @media (max-width: 900px) {
