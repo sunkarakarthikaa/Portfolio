@@ -172,6 +172,11 @@ p { margin: 0 0 1rem 0; color: var(--muted); }
   display: none;
 }
 #backToTop.show { display: grid; place-items: center; }
+#backToTop:hover {
+  background: var(--primary-strong);
+  color: #000;
+  border-color: #000;
+}
 
 /* Footer */
 .site-footer {
